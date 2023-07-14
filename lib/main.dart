@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
       home: Scaffold(
         appBar: AppBar(
           backgroundColor: Colors.blueGrey,
-          title: Text('Recipes application'),
+          title: Text('Recipe Calculator'),
         ),
         body: RecipesScreen()
       ),
