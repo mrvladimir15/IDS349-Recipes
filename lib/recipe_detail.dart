@@ -17,7 +17,7 @@ class _RecipeDetailState extends State<RecipeDetail> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Recipes'),
+        title: Text(widget.recipe.label),
         backgroundColor: Colors.blueGrey,
       ),
       body: SingleChildScrollView(

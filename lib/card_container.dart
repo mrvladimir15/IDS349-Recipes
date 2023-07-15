@@ -37,7 +37,6 @@ class CardContainer extends StatelessWidget {
           ),
         ),
       ),
-
       onTap: () {
         Navigator.push(
           context,
